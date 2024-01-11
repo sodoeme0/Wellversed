@@ -71,7 +71,7 @@ After the dependencies are installed, you can start the development server to ru
 
 In a separate terminal run the following command: npm start
 
-The project should now be running succesfully on http://localhost:3000 !
+The project should now be running succesfully on https://wellversed.onrender.com/ !
 
 
 ---------------------------------
