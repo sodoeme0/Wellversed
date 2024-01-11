@@ -21,23 +21,7 @@
 -JS validation for contact page and ability to submit inquiries
 -Fully responsive for mobile and tablet view
 
---------------------------------
 
- ### Team: 
- Success Odoemena (backend team and Team Lead) 
- Github username: sodoeme
-
- Kevin Miranda-Torres (backend team) 
- Github username: OAKevin
-
- D'Andre Derr (backend team) 
- Github username: DAndreDerr
-
- Aubrey Moya Mendez-Trotter (frontend team) 
- Github username: amoyament
-
- Myles Kelly (front end)
- Github username: mylesakelly
 
 ---------------------------------
 
@@ -49,7 +33,7 @@ Click on the "Code" button and copy the repository URL.
 
 Open your terminal/command prompt and navigate to the directory where you want to clone the repository.
 
-Use the following command to clone the repository: git clone https://github.com/OAKevin/Wellversed.git
+Use the following command to clone the repository: git clone https://github.com/sodoeme0/Wellversed
 
 2. Install Dependencies
 
@@ -83,20 +67,4 @@ The project should now be running succesfully on https://wellversed.onrender.com
 3. MongoDB
 4. Nodejs
 5. VS Code Editor
-
----------------------------------
-
-### Contributing
-
-We welcome contributions from the community! To contribute to Well-VerSed Connection, follow these steps:
-
-1. Fork the repository on GitHub.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your fork.
-5. Submit a pull request to the `main` branch of this repository.
-
-### Contact
-
-For any questions or inquiries, please email us at contact@well-verse.com.
 
