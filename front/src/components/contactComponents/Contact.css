@@ -1,0 +1,236 @@
+.contact-header {
+  font-size: 42px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(165, 36, 0);
+}
+
+hr {
+  padding: 1px;
+  background: rgb(165, 36, 0);
+  border: none;
+  margin: 1px 40px 10px;
+}
+
+.team-header {
+  color: #c1a03eea;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.team-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 1px;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h3 {
+  color: #b49023ea;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h4 {
+  color: #c1a03eea;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+h5 {
+  color: rgb(113, 34, 0);
+  font-weight: normal;
+  font-size: 20px;
+  padding: 10px 20px 20px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 15px 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.label {
+  width: 130px;
+  background-color: #e8c65fea;
+  padding: 0px 10px;
+  color: rgb(165, 36, 0);
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input,
+.input:focus {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.form-group {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #92641b;
+  height: 40px;
+}
+
+input {
+  color: rgb(113, 34, 0);
+  background-color: rgba(250, 204, 186, 0.335);
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit {
+  border: 1px solid #dd9b30;
+  background-color: #f5d58bb5;
+  color: rgb(113, 34, 0);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .contact-header .contact-header {
+    font-size: 52px;
+    margin-top: 30px;
+  }
+
+  hr {
+    padding: 1.5px;
+    margin: 1px 100px 10px;
+  }
+
+  .team-header {
+    font-size: 40px;
+  }
+
+  .member {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 30px;
+    padding: 10px 130px 20px;
+  }
+
+  .form-group {
+    margin: 35px 150px;
+    font-size: 25px;
+  }
+
+  .label {
+    width: 180px;
+    padding: 0px 18px;
+  }
+
+  .input,
+  .input:focus {
+    padding-left: 20px;
+    font-size: 25px;
+  }
+
+  .form-group {
+    height: 45px;
+    border-radius: 5px;
+  }
+
+  .submit {
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 1px 40px;
+  }
+}
+
+@media (min-width: 1020px) {
+  hr {
+    padding: 1px;
+    margin: 1px 158px 10px;
+  }
+
+  .team-header {
+    font-size: 35px;
+  }
+
+  .team-container {
+    padding: 1px 150px;
+  }
+
+  .member {
+    padding: 10px 35px;
+  }
+
+  .member img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h5 {
+    font-size: 25px;
+    padding: 10px 330px 20px;
+  }
+
+  .form-group {
+    border-width: 3px;
+    margin: 35px 300px;
+    font-size: 15px;
+  }
+
+  .label {
+    width: 100px;
+    padding: 0px 10px;
+  }
+
+  .input,
+  .input:focus {
+    padding-left: 15px;
+    font-size: 15px;
+  }
+
+  .form-group {
+    border-width: 2px;
+    height: 30px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+
+  .submit {
+    font-size: 15px;
+    padding: 5px 8px;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,41 @@
+.table-wrapper {
+    padding: 20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  
+  td, th {
+    border: 1px solid rgb(251, 217, 155);;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(251, 217, 155);;
+  }
+
+  .course-list-title {
+    color: #b49023ea;
+    font-size: 30px;
+    line-height: 1.8;
+    text-align: center;
+  }
+   .courselist-btn {
+    text-decoration: none;
+
+    padding: 10px  5 20px;
+    background: rgb(148, 13, 13);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    
+  }
+ 

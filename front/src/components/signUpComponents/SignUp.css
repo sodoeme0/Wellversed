@@ -1,0 +1,58 @@
+hr.header-divider {
+  margin: 1px 40px 1px;
+}
+
+.signup-blurb {
+  font-size: 15px;
+  margin: 1px 50px 1px;
+  color: #c1a03eea;
+}
+
+.checkbox-label {
+  font-size: 12px;
+  padding: 1px 30px 1px;
+  color: rgb(113, 34, 0);
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+@media (min-width: 767px) {
+  hr.header-divider {
+    padding: 1px;
+    margin: 1px 150px 1px;
+  }
+
+  h2.signup-blurb {
+    font-size: 20px;
+    margin: 1px 170px 1px;
+  }
+
+  .checkbox-label {
+    font-size: 18px;
+    padding: 1px 170px 1px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 1020px) {
+  hr.header-divider {
+    margin: 1px 280px 1px;
+  }
+
+  h2.signup-blurb {
+    margin: 1px 300px 1px;
+  }
+
+  .checkbox-label {
+    padding: 1px 320px 1px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+}

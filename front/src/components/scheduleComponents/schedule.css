@@ -1,0 +1,81 @@
+.hero-image {
+  background-image: url("/public/photos/hero-image.jpeg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+  background-repeat: no-repeat;
+  width: 100%; /* Ensure the section takes the full width */
+  height: 500px; /* Set the desired height */
+  /* Add other styles as needed */
+}
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.9); /* Adjust the alpha value as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hide-dates .rbc-date-cell {
+  display: none;
+}
+
+.hide-calendar-content {
+  pointer-events: none; /* Prevent interactions with the calendar */
+  opacity: 0.4; /* Apply opacity to the calendar content */
+}
+
+.hide-calendar-content .rbc-date-cell,
+.hide-calendar-content .rbc-event {
+  display: none;
+}
+
+button {
+  padding: 15px;
+  background: rgb(148, 13, 13);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+
+  opacity: 1;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+.icon {
+  font-size: 80px;
+  color: green;
+}
+.drop-icon {
+  font-size: 80px;
+  color: green;
+}
+.dropped-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signed-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .volunteer-schedule {
+  background-color: #fffef3;
+}
+
+.schedule {
+ background-color: #fffef3;
+} */

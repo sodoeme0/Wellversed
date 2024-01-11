@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  z-index: 2;
+  box-shadow: 0 4px 8px #00000061;
+  background-color: #e8c65fea;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  border-top: 2px solid rgb(75, 23, 0);
+  border-bottom: 2px solid rgb(75, 23, 0);
+}
+
+nav h1 .menu-icon {
+  color: #962d00ff;
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+nav h1 a {
+  color: #962d00ff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline;
+  list-style: none;
+}
+
+#links {
+  display: none;
+  font-size: 125%;
+  margin: 0, 20%;
+  border-top: solid rgb(75, 23, 0) 2px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #962d00ff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  padding: 0 5%;
+}
+
+.show {
+  display: block !important;
+}
+
+nav ul li a:hover {
+  color: rgb(75, 23, 0);
+}
+
+.signin-section {
+  background-color: rgba(150, 45, 0, 0.861);
+  border-radius: 20px;
+  padding: 10px;
+  width: 130px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.signin-link {
+  text-decoration: none;
+  color: wheat;
+}
+
+.signin-icon {
+  height: 15px;
+}
+
+@media (min-width: 768px) {
+  nav h1 {
+    font-size: 300%;
+  }
+
+  nav ul li {
+    font-size: 125%;
+    margin: 0, 15%;
+  }
+
+  nav h1 .icon {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .nav-header {
+    text-align: left;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+  }
+
+  nav h1 {
+    font-size: 300%;
+    line-height: 1.1;
+    padding-top: 15px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  nav ul li {
+    font-size: 120%;
+    white-space: nowrap;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  #links {
+    display: block;
+    border-top: none;
+    border-bottom: none;
+  }
+}

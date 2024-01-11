@@ -1,0 +1,93 @@
+.img-container {
+  color: #962d00ff;
+  text-align: center;
+}
+
+.login-icon {
+  font-size: 200px;
+  color: #dd9b30;
+  transition: color 1s ease;
+}
+.login-icon:hover {
+  transform: scale(1.3);
+}
+
+.login-icon:hover {
+  color: #dd9b30;
+  transition: color 1s ease;
+}
+
+h2.signin-blurb {
+  font-size: 15px;
+  margin: 5px 50px 10px;
+  color: #c1a03eea;
+}
+
+.account-header {
+  color: #c1a03eea;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.signup-link {
+  color: #7d6827ea;
+}
+
+.terms-blurb {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 20px 10px;
+}
+
+.forgot-blurb {
+  text-align: center;
+  display: block;
+  font-size: 15px;
+  color: #7d6827ea;
+}
+
+.main-login {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 767px) {
+  h2.signin-blurb {
+    font-size: 20px;
+    margin: 1px 170px 1px;
+  }
+
+  .account-header {
+    font-size: 40px;
+  }
+
+  .terms-blurb {
+    font-size: 18px;
+    margin: 10px 8px 10px;
+  }
+
+  .forgot-blurb {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .main-login {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .account-header {
+    font-size: 35px;
+  }
+
+  .icon {
+    font-size: 10px;
+    color: #dd9b30;
+    transition: color 1s ease;
+  }
+}
